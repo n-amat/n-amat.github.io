@@ -1,5 +1,6 @@
 **Trabajo Practico Final curso Ticmas Front-end (Argentina Programa 4.0)**
-https://academy.profesional.ticmas.io (Enero de 2023)
+
+https://academy.profesional.ticmas.io (Enero / Febrero de 2023)
 
 Este Trabajo Practico Final es un **CV ficticio**.
 
