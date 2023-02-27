@@ -1,0 +1,92 @@
+/* Estilos Index TPF ---------------*/
+
+html,body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Roboto", sans-serif;
+}
+
+.colIzq {
+    text-align: left;
+    padding: 2%;
+    float: left;
+    background-color: #aaaaaa;
+}    
+   
+.colDer {
+    text-align: left;
+    padding: 2%;
+    width: 100%;
+    float: left;
+    margin-bottom: 1%;
+}
+
+.cyanOsc {
+    color: darkcyan;
+}
+
+/* Estilos Para Graficos de Barras -------*/
+
+.contBarra { /* "Contenedor" de la barra" */
+    height: 18px;
+    width: 100%;
+    border: 1px solid #7b7b7b;
+    border-radius: 15px;
+    background-color: #e6f3fa;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+ 
+.porcBarra { /* La barra que indica el progreso */
+    height: 100%;
+    width: 0%;
+    background: darkcyan;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+}
+ 
+.txtBarra {   /* Texto de porcentaje de la barra */
+    margin-left: 10px;
+    color: #2b2b2b;
+}
+
+/* Estilos Para Pagina Info Adicional -------*/
+
+.cyanOscRev {
+    background-color: darkcyan;
+    color: beige;
+    font-weight: bold;
+}
+
+.centrado {
+    text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+
+
+    
+
+   
+
+
+

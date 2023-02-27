@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <title>TP Final Front End (CV) - TicMas / Argentina Programa 4.0</title> 
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="js/funcionesTPF.js"></script>
+
+  <!-- Links a estilos locales, bootstrap y fa (font awesome, iconos) -->
+  <link rel="stylesheet" href="css/estilosTPF.css" >
+  <link rel="stylesheet" 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" >
+  <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >   
+
+</head>
+
+<body> 
+
+  <div class="container-fluid" style="margin-top: 6px;">
+
+    <div class="row"> <!-- Armado de Grilla con bootstrap (una fila, "4" columnas)-->
+
+      <!-- Columna Relleno izq.-->
+      <div class="col-lg-2" style="background-color:#ffffff"></div> 
+ 
+
+      <!-- Columna contenido izq. -->
+      <div class="col-lg-3">
+       
+        <div class="colIzq">  <!-- Foto perfil, presentacion, habilidades, idiomas -->
+          <h2><b>Carolina Luisa Grimaldi</b></h2>
+          <img src="https://www.w3schools.com/w3images/avatar_hat.jpg" 
+               alt="Foto Perfil" width="100%">
+          <hr>
+
+          <p><div class="fa fa-briefcase cyanOsc"></div>
+                <b>Diseñadora Web y Programadora multimedia</b>
+          </p>
+          <p><div class="fa fa-home cyanOsc"></div>
+                La Plata, Buenos Aires, ARGENTINA
+          </p>
+          <p><div class="fa fa-phone cyanOsc"></div>
+                +54 (221) 635 3749
+          </p>
+          <div class="fa fa-envelope cyanOsc"></div>      
+            <a href="mailto:carolinagrimaldi@mailserver.com">
+                Email: carolinagrimaldi@mailserver.com</a> <!-- link ancla a email-->
+          <hr>  
+
+          <p><div class="fa fa-asterisk cyanOsc"></div>
+              <b>Habilidades</b></p>
+                <span>Edición de audio - vídeo multimedia</span><br>
+                <span>Configuración de equipos y servidores Web</span><br>
+                <p>Herramientas Adobe (Photoshop, Illustrator, etc)</p>
+          <hr>
+
+          <div class="fa fa-globe cyanOsc"></div>
+            <b>Idiomas</b>
+            <div>
+              Inglés
+              <div class="contBarra">
+                 <div id="ingles" class="porcBarra">
+                    <span class="txtBarra"></span>
+                 </div>
+              </div>
+
+              Francés
+              <div class="contBarra">
+                 <div id="frances" class="porcBarra">
+                    <span class="txtBarra"></span>
+                 </div>
+              </div>
+
+              Italiano
+              <div class="contBarra">
+                 <div id="italiano" class="porcBarra">
+                    <span class="txtBarra"></span>
+                 </div>
+              </div>
+            </div>
+          </div>
+
+          <script>
+            setearPorcentaje( 'ingles' , 98);
+            setearPorcentaje( 'frances' , 95);
+            setearPorcentaje( 'italiano' , 85);
+          </script>
+		  
+		<div class="colDer"> <!-- Caja Informacion Adicional -->
+          <a href="InfoAdicional.html" target="_blank" rel="noopener"
+                onClick="window.open('InfoAdicional.html',
+                                     'pagename',
+                                     'width=600,height=370'); 
+                          return false;">
+              <div class="cyanOsc fa fa-hand-o-right" style="font-size:27px">
+                <b> Más Información</b>
+              </div>
+          </a> 
+        </div> <!-- FIN Caja Informacion Adicional -->
+       
+      </div> <!-- FIN COLUMNA CONTENIDO IZQUIERDA-->
+
+
+      <div class="col-lg-5"> <!-- Columna Contenido Der. -->
+    
+        <div class="colDer" style="background-color: #cccccc;">  <!-- Caja Experiencia Laboral -->
+          <h3 class="cyanOsc"><div class="fa fa-suitcase"></div>
+            Experiencia Laboral</h3>
+           
+            <h5><b>Desarrolladora Front End - Web Lighting Corp.</b></h5>
+             <p class="cyanOsc"> <b>Marzo 2021 - Presente</b></p>
+             <p>Lider de proyecto desde 2022 - 
+                  Coordinadora de equipos y evaluación de personal
+             </p>
+            <hr>
+
+            <h5><b>Programadora Multimedia - niceslide.com</b></h5>
+             <p>Marzo 2018 - Diciembre 2020</p>
+             <p>Programación y edición de clips multimedia de audio y video 
+                  para implementación en páginas Web
+             </p>
+            <hr>
+  
+            <h5><b>Diseñadora gráfica - schizzoplus.it</b></h5>
+             <p>Junio 2016 - Febrero 2018</p>
+             <p>Creación de gráficas Web, campañas publicitarias para vía publica y ploteo 
+                  en cristales y móviles 
+             </p>
+        </div>  <!-- Fin caja experiencia laboral-->
+  
+        <div class="colDer" style="background-color: #dddddd;">  <!-- Caja Educación -->
+          <h3 class="cyanOsc"><div class="fa fa-certificate"></div>
+            Educación</h3>
+          
+            <h5><b>Ticmas</b></h5>
+            <h6>Contínuamente desde 2023</h6>
+            <p>Desarrollo Web. 
+               En constante actualización de conocimientos y habilidades en front y back-end
+            </p>
+            <hr>
+            
+            <h5><b>Stanford University (U.S.A.)</b></h5>
+            <h6>2015 - 2016</h6>
+            <p>Posgrado en desarrollo Web y Multimedia</p>
+            <hr>
+
+            <h5><b>Facultad de Ciencias de la Comunicación (UNLP)</b></h5>
+            <h6></i>2011 - 2014</h6>
+            <p>Licenciatura en Comunicación</p>
+        </div>   <!-- Fin caja Educación -->
+
+
+ 
+      </div> <!-- FIN COLUMNA CONTENIDO DERECHA -->
+
+      <!-- Columna derecha de relleno (no necesaria)
+        <div class="col-lg-2" style="background-color:#ffffff"> </div>
+      -->
+
+    </div> <!-- FIN GRILLA -->
+
+  </div> <!-- Fin Contenedor Bootstrap -->
+ 
+</body>
+</html>
