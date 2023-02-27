@@ -4,8 +4,7 @@ https://academy.profesional.ticmas.io (Enero / Febrero de 2023)
 
 Este Trabajo Practico Final es un **CV ficticio**.
 
-El esquema original (para tener una idea de que hacer, ya que no tengo experiencia al respecto)
-lo tomé de un ejemplo de "w3 schools". 
+Se tomó una idea básica de un ejemplo de "w3 schools". 
 Construí este sitio con código propio tratando de lograr un aspecto 
 lo mas parecido posible al original.
 
