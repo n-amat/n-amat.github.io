@@ -4,9 +4,10 @@ https://academy.profesional.ticmas.io (Enero / Febrero de 2023)
 
 Este Trabajo Practico Final es un **CV ficticio**.
 
-El esquema original (para tener una idea de que hacer, ya que no temgo experiencia al respecto)
-se tomó de un ejemplo de "w3 schools". Se construyó este sitio con código propio 
-tratando de lograr un aspecto lo mas parecido posible al original.
+El esquema original (para tener una idea de que hacer, ya que no tengo experiencia al respecto)
+lo tomé de un ejemplo de "w3 schools". 
+Construí este sitio con código propio tratando de lograr un aspecto 
+lo mas parecido posible al original.
 
 Se aplicó bootstrap e iconos de "fa" (fontawesome) de acuerdo a lo sugerido en las consignas.
 
