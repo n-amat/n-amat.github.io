@@ -4,10 +4,6 @@ https://academy.profesional.ticmas.io (Enero / Febrero de 2023)
 
 Este Trabajo Practico Final es un **CV ficticio**.
 
-Se tomó una idea básica de un ejemplo de "w3 schools". 
-Construí este sitio con código propio tratando de lograr un aspecto 
-lo mas parecido posible al original.
-
 Se aplicó bootstrap e iconos de "fa" (fontawesome) de acuerdo a lo sugerido en las consignas.
 
 Se crearon dos funciones js. Una para hacer "barras de progreso estáticas" 
